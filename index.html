@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List</title>
+        <link rel="stylesheet" href="./styles.css" >
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Comment Box</h1>
+            </header>
+            <hr/>
+            <br/>
+        <div class="commentbox-container">
+            <div id="comment-box">
+                <label>Choose avatar</label><input type="file" id="avatar" placeholder="Choose avatar" accept="image/png, image/jpeg">
+                <input type="text" id="username" placeholder="Enter Name">
+                <textarea id="in-commentbox" cols="60" rows="5" placeholder="Leave your comments here..."></textarea>
+            </div>
+            <div id="comments">
+                <button id="submit-comment" onclick="newComment()" class="btn-success">Submit</button>
+                <button id="reset" onclick="resetCommentBox()" class="btn-warning">Reset</button>
+            </div>
+        </div>
+        <hr/>
+        <div class="comments-container">
+            <!-- <div class="card">
+                <img src="https://storage.needpix.com/rsynced_images/profile-2092113_1280.png" />
+                <div class="comment">
+                    <h3>Vijay</h3>
+                    <span style="font-size: small;">Tue, 14 Apr 2020 06:11:53 GMT</span>
+                    <pre>Hey! I'm the Boss!</pre>
+                </div>
+            </div> -->
+            
+        </div>
+    </div>
+        <script src="./comments.js"></script>
+    </body>
+</html>

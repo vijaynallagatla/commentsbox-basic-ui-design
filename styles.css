@@ -1,0 +1,112 @@
+.container {
+    width: 50%;
+    margin: auto;
+    align-items: center;
+}
+
+.commentbox-container {
+    margin-bottom: 10px;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    border: 0;
+    border-top: 2px solid #eee;
+    margin: 20px -16px;
+}
+
+header {
+    text-align: center;
+    color: brown;
+}
+
+input {
+    display: block;
+    padding: 2px;
+    margin: 10px;
+    outline: none;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid slateblue;
+    font-size: medium;
+}
+
+#in-commentbox {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: medium;
+    border-width: 2px;
+    border-color: slateblue;
+    box-shadow: 20px slateblue;
+    margin: 10px;
+    width: 100%;
+}
+
+button:active,
+button:focus {
+    outline: none;
+}
+
+#in-commentbox:active,
+#in-commentbox:focus,
+input:active,
+input:focus {
+    box-shadow: 10px 10px 5px #aaaaaa;
+    outline: none;
+}
+
+button {
+    font-size: medium;
+    padding: 6px;
+    min-width: 100px;
+    color: white;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+button.btn-warning {
+    background-color: tomato;
+}
+
+button.btn-success {
+    background-color: mediumseagreen;
+}
+
+.profile-pic, img {
+    float: left;
+    margin: 10px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.card {
+    min-height: 100px;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    padding: 2px;
+    padding-right: 10px;
+    margin: 5px;
+}
+
+.comments-container {
+    padding: 10px;
+    width: 100%;
+}
+
+h3 {
+    margin-bottom: 4px;
+}
+p {
+    padding: 10px;
+    background-color: aliceblue;
+    text-align: justify;
+}
+.comment {
+    margin-left: 100px;
+}
